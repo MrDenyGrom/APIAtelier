@@ -1,0 +1,45 @@
+2024-11-28T20:55:25.523+03:00  INFO 13252 --- [Atelier-Api-System] [main] c.e.a.APIBackendAtelier                  : Starting APIBackendAtelier using Java 22.0.1 with PID 13252 (C:\Users\User\IdeaProjects\API\target\classes started by User in C:\Users\User\IdeaProjects\API)
+2024-11-28T20:55:25.534+03:00  INFO 13252 --- [Atelier-Api-System] [main] c.e.a.APIBackendAtelier                  : No active profile set, falling back to 1 default profile: "default"
+2024-11-28T20:55:26.702+03:00  INFO 13252 --- [Atelier-Api-System] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-28T20:55:26.768+03:00  INFO 13252 --- [Atelier-Api-System] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2024-11-28T20:55:27.284+03:00  INFO 13252 --- [Atelier-Api-System] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-28T20:55:27.299+03:00  INFO 13252 --- [Atelier-Api-System] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28T20:55:27.299+03:00  INFO 13252 --- [Atelier-Api-System] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-28T20:55:27.361+03:00  INFO 13252 --- [Atelier-Api-System] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28T20:55:27.362+03:00  INFO 13252 --- [Atelier-Api-System] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1784 ms
+2024-11-28T20:55:27.517+03:00  INFO 13252 --- [Atelier-Api-System] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-28T20:55:27.604+03:00  INFO 13252 --- [Atelier-Api-System] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-28T20:55:27.651+03:00  INFO 13252 --- [Atelier-Api-System] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-28T20:55:28.053+03:00  INFO 13252 --- [Atelier-Api-System] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-28T20:55:28.097+03:00  INFO 13252 --- [Atelier-Api-System] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-28T20:55:31.042+03:00  INFO 13252 --- [Atelier-Api-System] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@83ebdc5
+2024-11-28T20:55:31.044+03:00  INFO 13252 --- [Atelier-Api-System] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-28T20:55:31.866+03:00  WARN 13252 --- [Atelier-Api-System] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28T20:55:33.698+03:00  INFO 13252 --- [Atelier-Api-System] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-28T20:55:34.820+03:00  INFO 13252 --- [Atelier-Api-System] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T20:55:35.193+03:00  INFO 13252 --- [Atelier-Api-System] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-11-28T20:55:35.924+03:00  INFO 13252 --- [Atelier-Api-System] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-28T20:55:35.932+03:00  INFO 13252 --- [Atelier-Api-System] [main] c.e.a.APIBackendAtelier                  : Started APIBackendAtelier in 10.829 seconds (process running for 11.767)
+2024-11-28T20:55:35.935+03:00  INFO 13252 --- [Atelier-Api-System] [main] c.e.a.APIBackendAtelier                  : APIBackendAtelier запущен.
+2024-11-28T20:55:39.054+03:00  INFO 13252 --- [Atelier-Api-System] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-28T20:55:39.054+03:00  INFO 13252 --- [Atelier-Api-System] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-28T20:55:39.055+03:00  INFO 13252 --- [Atelier-Api-System] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-28T20:55:39.769+03:00  INFO 13252 --- [Atelier-Api-System] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 344 ms
+2024-11-28T20:58:18.333+03:00  INFO 13252 --- [Atelier-Api-System] [http-nio-8080-exec-4] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x1a0x010x000x020x160x030x03Oq0x97r0x020x810x0aC0xe80xe30x16V0x990x850xe4`D0xfd;0x9f0xa50xe40xa80x1f0x12d0xb70xe9[0x83?# ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:406) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:257) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-11-28T21:02:14.251+03:00  INFO 13252 --- [Atelier-Api-System] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T21:02:14.252+03:00  INFO 13252 --- [Atelier-Api-System] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-28T21:02:14.259+03:00  INFO 13252 --- [Atelier-Api-System] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
