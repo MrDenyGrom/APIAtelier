@@ -13,8 +13,6 @@ import java.util.List;
 
 public record CustomUserDetails(AppUser appUser) implements UserDetails {
 
-    private static final Logger log = LoggerFactory.getLogger(CustomUserDetails.class);
-
     public CustomUserDetails(AppUser appUser) {
         this.appUser = appUser;
     }
@@ -54,8 +52,7 @@ public record CustomUserDetails(AppUser appUser) implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        boolean isEnabled = appUser.isEnabled();
-        return isEnabled;
+        return appUser.isEnabled();
     }
 
 }
